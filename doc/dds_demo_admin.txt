@@ -1,0 +1,19 @@
+Scraped obj classs:
+		base BASE
+		description STANDARD
+		title STANDARD
+		url DEFAULT_PAGE_URL
+
+Scrapers:
+        base        //td[@class="l_box"]
+		description //h1[@id="firstHeading"]/span/text()
+		title       p/span[@class="l_summary"]/text()
+		url         span[@class="l_title"]/a/@href
+
+
+
+'pre_url': 'http://en.wikinews.org'
+
+
+Wikinews
+http://en.wikinews.org/wiki/Main_Page

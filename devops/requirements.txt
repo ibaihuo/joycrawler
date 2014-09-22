@@ -1,0 +1,4 @@
+Django==1.4.15
+MySQL-python
+django-dynamic-scraper==0.3.4
+Scrapy==0.16.1
